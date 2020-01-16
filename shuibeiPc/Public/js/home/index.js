@@ -565,7 +565,7 @@ $(document).ready(function() {
 	var media = $("#media").offset().top - 500;
 	 c.addTween(media, TweenMax.to($("html"), .2, {
 		css: {
-			backgroundColor: "none"
+			// backgroundColor: "none"
 		}
 	})),
 	c.addTween(media, TweenMax.to($("#menu_ul li a , #GUIDE .content_title"), .2, {
@@ -600,7 +600,7 @@ $(document).ready(function() {
 	var news = $("#news").offset().top - 500;
 	 c.addTween(media, TweenMax.to($("html"), .2, {
 		css: {
-			backgroundColor: "none"
+			// backgroundColor: "none"
 		}
 	})),
 	c.addTween(news, TweenMax.to($("#menu_ul li a , #news .content_title"), .2, {

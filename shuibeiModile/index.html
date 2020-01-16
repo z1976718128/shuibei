@@ -43,26 +43,60 @@
   <input type="hidden" id="timestape" value="1578278921">
 
   <div class="header" style="position:relative;">
-    <img style="width: 100%; height: auto;z-index:-2" src="http://pic.topys.cn/mindpark/wx/main_bg.png"
+    <img style="width: 100%; height: 735px;z-index:-2" src="Public/images/modile.png"
       class='main-bg' />
     <img style="width: 40px; height: 18px;" src="http://pic.topys.cn/mindpark/wx/down_icon.png" class='down-icon' />
-    <div class="flex-wrp" style="padding:30px 5% 40px 5%;">
+    <div class="flex-wrp" >
       <div class="flex-item logo">
         <div>
-          <img style="width: 60%; height: auto;z-index:999999"
-            src="http://pic.topys.cn/mindpark/wx/index_white_logo.png" />
+          <img style="width:80%; height: auto;z-index:999999;"
+            src="Public/images/logo.png" />
         </div>
 
       </div>
     </div>
+	<div class="menu">
+		<img src="Public/images/menu.png" >
+	</div>
+	<!-- menu -->
+	<div class="menuMove">
+		<div class="menuMoveHead">
+			<img class="menu_logo" src="Public/images/logo.png" width="150px">
+			<img class="clone" src="Public/images/clone.png" width="25px">
+		</div>
+		<div class="menuContent">
+			<img src="Public/images/logo.png" >
+		</div>
+		<div class="menuNav">
+			<a href="">+ What is HGPS +</a>
+			<a href="">+ What is HGPS +</a>
+			<a href="">+ What is HGPS +</a>
+			<a href="">+ What is HGPS +</a>
+			<a href="">+ What is HGPS +</a>
+			<a href="">+ What is HGPS +</a>
+		</div>
+		<div class="menuBtn">
+			<a href="">+ Registration +</a>
+		</div>
+		<div class="social">
+			<a href=""><img src="Public/images/icon-facebook-dark.png" ></a>
+			<a href=""><img src="Public/images/icon-linkedin-dark.png" ></a>
+			<a href=""><img src="Public/images/icon-facebook-dark.png" ></a>
+			<a href=""><img src="Public/images/icon-linkedin-dark.png" ></a>
+		</div>
+	</div>
+	  <!-- menu -->
   </div>
+  
+  
+
   <div><img style='position: absolute;z-index:99;bottom:120px;left:15px;width:85px;height:37px;'
       src='http://pic.topys.cn/mindpark/wx/s_l_1.png?{{version}}' /></div>
   <div><img style='position: absolute;z-index:99;bottom:70px;left:15px;width:186rpx;height:41px;'
       src='http://pic.topys.cn/mindpark/wx/s_l_2.png?{{version}}' /></div>
   <div>
-    <video style='width:100%;' poster="http://pic.topys.cn/mindpark/wx/index_video.png?x-oss-process=image/resize,w_900"
-      src='http://video.topys.cn/09fc65173f994ae8aba5be38ed18dc61/0354ec92d1a04bd3accab55055a48e7f-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4'
+    <video style='width:100%;' poster="Public/images/video.png"
+      src='https://ugcws.video.gtimg.com/uwMROfz2r5zIIaQXGdGnC2dfDmb_xYKxrIGz_bGUg2Lja6ru/u0639tmf1cx.mp4?sdtfrom=v1010&guid=7be6f7e9afe59584194541594b91c467&vkey=5C2ADE576CC5972F4CBF9F82EB5581833DBDAF6E55A92FD6EEB3179D4849AE5CE238753B00624FDA9E24307927AD64DF88B5431DA7459A77E39EA8407D9540090D3FB5204A9DCE446BAA7999A904A79C8E491309E80995B1524EA4F0057F02F403CF082AE720C7366AFF40C1540877E4DB26EC4060F61DD4613B6613211A250B'
       controls></video>
   </div>
   <div class='main'>
@@ -804,7 +838,7 @@
   </div>
 
   <div class='flex_footer flex-wrp weui-flex' id="footer">
-    <div class='flex-item gtblack weui-flex__item' style='width:40%'>
+ <!--   <div class='flex-item gtblack weui-flex__item' style='width:40%'>
       <span class='flex_active'>MINDPARK</span>
     </div>
     <div class='flex-item weui-flex__item ' @click="gozz()">
@@ -812,7 +846,7 @@
     </div>
     <div class='flex-item weui-flex__item ' @click="goHref()">
       <span>创意城市指南</span>
-    </div>
+    </div> -->
 
     <div class="js_dialog" id="buy-dialog" style="display: none;">
       <div class="weui-mask"></div>
@@ -831,11 +865,27 @@
       </div>
     </div>
   </div>
+  <script src="Public/js/mobile/new_file.js" type="text/javascript" charset="utf-8"></script>
   <script src="Public/plug-in/weui/dist/example/zepto.js" type="text/javascript" charset="utf-8"></script>
   <script src="Public/plug-in/swiper/dist/js/swiper.min.js"></script>
   <script src="Public/plug-in/vue/dist/vue.min.js"></script>
   <script src="Public/js/mobile/index.js?v=100000"></script>
-
+  <script type="text/javascript">
+  	 $(function(){
+		 $(".menu").click(function(){
+			// $(".menuMove").animate({
+			// 	height:"750px"
+			// },1000)
+			$(".menuMove").slideDown()
+		 })
+		 $(".clone").click(function(){
+			 // $(".menuMove").animate({
+			 // 	height:"0"
+			 // },1000)
+			$(".menuMove").slideUp()
+		 })
+	 })
+  </script>
 </body>
 
 </html>

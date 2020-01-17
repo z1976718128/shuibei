@@ -1,24 +1,30 @@
-@font-face {
+/* @font-face {
 	font-family: gtBlack;
 	src: url(../../webfont/GeometricBT.ttf) format('woff');
 	font-weight: 500;
 	font-style: normal
-}
-/*
+} */
+
 @font-face {
-	font-family: gtBlack;
-	src: url(../../webfont/GTWalsheim-Regular.woff) format('woff');
+	font-family: Regular;
+	src: url(../../webfont/MyriadPro-Regular.otf) format('otf');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: gtBlack;
-	src: url(../../webfont/GTWalsheim-Bold.woff) format('woff');
+	src: url(../../webfont/MyriadPro-Semibold.otf) format('otf');
 	font-weight: 700;
 	font-style: normal
-}*/
-.swiper-slide{
+}
+body{
+	font-family:Regular ;
+}
+.master_img{
+}
+.list-unstyled a{
+	color: #fff !important;
 }
 .new_a{
 	width: 373px;
@@ -39,7 +45,7 @@
 	margin:0 0 19px 12px ;
 }
 #GUIDE{
-	margin-top: 80px;
+	margin-top: 100px;
 }
 .gt_black {
 	font-family: gtBlack;
@@ -326,7 +332,7 @@ a:hover {
 
 #index_video {
 	width: 100%;
-	height: 700px;
+	height: 650px;
 	margin-top: 80px;
 	/*margin-bottom: 120px*/
 }
@@ -355,7 +361,7 @@ a:hover {
 }
 
 #index_page_main {
-	padding-bottom: 180px
+	padding-bottom: 100px
 }
 
 .content_title {
@@ -427,13 +433,13 @@ a:hover {
 }
 
 .mp_speakers_main {
-	margin-bottom: 50px
+	/* margin-bottom: 50px */
 }
 
 .mp_speakers_title {
 	font-size: 24px;
 	font-weight: bolder;
-	margin-bottom: 10px
+	/* margin-bottom: 10px */
 }
 
 .mp_speakers_item {

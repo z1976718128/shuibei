@@ -308,7 +308,7 @@ $(document).ready(function() {
 		}
 	}));
 	var d = $("#master_class").offset().top - 500;
-	c.addTween(d, TweenMax.to($("html"), .2, {
+	c.addTween(d, TweenMax.to($("html"), .1, {
 		css: {
 			backgroundColor: "#c8502f"
 		}
@@ -333,7 +333,7 @@ $(document).ready(function() {
 		css: {
 //			backgroundColor: "#fff"
 		}
-	})), c.addTween(d - 200, TweenMax.to($("#master_class .content_title"), .2, {
+	})), c.addTween(d - 200, TweenMax.to($("#master_class .content_title,.content_text,.master_img"), .2, {
 		css: {
 			opacity: 1,
 			bottom: "0px"
@@ -355,7 +355,7 @@ $(document).ready(function() {
 		}
 	}));
 	var l = $("#mind_park").offset().top - 500;
-	 c.addTween(l, TweenMax.to($("html"), .2, {
+	 c.addTween(l, TweenMax.to($("html"), .1, {
 		css: {
 			backgroundColor: "#2b91a1"
 		}
@@ -390,13 +390,13 @@ $(document).ready(function() {
 		}
 	}));
 	var m = $("#schedule").offset().top - 500;
-	c.addTween(m, TweenMax.to($(".current a"), .2, {
+	c.addTween(m, TweenMax.to($(".current a"), .1, {
 		css: {
 			color: "#fff"
 		}
 	})), c.addTween(m, TweenMax.to($("html"), .2, {
 		css: {
-			backgroundColor: "#0c476d"
+			backgroundColor: "#2b91a1"
 		}
 	})), c.addTween(m, TweenMax.to($("#menu_ul a , .p_change, .content_title, .gt_black, p, #schedule_info_table"), .2, {
 		css: {
@@ -412,7 +412,7 @@ $(document).ready(function() {
 		}
 	})), c.addTween(m, TweenMax.to($("#menu_li_2 a"), .2, {
 		css: {
-			color: "red"
+			color: "#fff"
 		}
 	})), c.addTween(m - 200, TweenMax.to($("#schedule .content_title"), .2, {
 		css: {
@@ -456,7 +456,7 @@ $(document).ready(function() {
 		}
 	})), c.addTween(p, TweenMax.to($(".schedule_line"), .2, {
 		css: {
-//			backgroundColor: "#fff"
+			backgroundColor: "#295f44"
 		}
 	})), c.addTween(p - 200, TweenMax.to($(".address_title"), .2, {
 		css: {
@@ -509,7 +509,7 @@ $(document).ready(function() {
 		}
 	})), c.addTween(r - 500, TweenMax.to($("#menu_li_8 a"), .2, {
 		css: {
-			color: "yellow"
+			color: "#fff"
 		}
 	})), c.addTween(r + 900, TweenMax.to($(".footer_content_2 .content_title"), .2, {
 		css: {
@@ -530,7 +530,7 @@ $(document).ready(function() {
 	var zjy = $("#GUIDE").offset().top - 500;
 	 c.addTween(zjy, TweenMax.to($("html"), .2, {
 		css: {
-			backgroundColor: "#295f44 !important"
+			backgroundColor: "#295f44"
 		}
 	})),
 	c.addTween(zjy, TweenMax.to($("#menu_ul li a , #GUIDE .content_title"), .2, {

@@ -355,7 +355,7 @@ a:hover {
 }
 
 #index_page_main {
-	/*padding-bottom: 180px*/
+	padding-bottom: 180px
 }
 
 .content_title {
@@ -1462,7 +1462,7 @@ a:hover {
 	width: 170px;
 	height: 42px;
 	line-height: 42px;
-	background-color: #0068b1;
+	background-color: #C49F72;
 	margin: 0 auto;
 	margin-top: 60px;
 	cursor: pointer

@@ -239,7 +239,7 @@ $(document).ready(function() {
 			bottom: "0px",
 			opacity: 1
 		}
-	})), c.addTween(i - 500, TweenMax.to($("#menu_li_1 a"), .2, {
+	})), c.addTween(i - 500, TweenMax.to($("#menu_li_8 a"), .2, {
 		css: {
 			color: "#0068B2"
 		}
@@ -410,9 +410,9 @@ $(document).ready(function() {
 		css: {
 			opacity: 1
 		}
-	})), c.addTween(m, TweenMax.to($("#menu_li_5 a"), .2, {
+	})), c.addTween(m, TweenMax.to($("#menu_li_2 a"), .2, {
 		css: {
-			color: "#fff"
+			color: "red"
 		}
 	})), c.addTween(m - 200, TweenMax.to($("#schedule .content_title"), .2, {
 		css: {
@@ -507,9 +507,9 @@ $(document).ready(function() {
 			opacity: 1,
 			bottom: "0px"
 		}
-	})), c.addTween(r - 500, TweenMax.to($("#menu_li_6 a"), .2, {
+	})), c.addTween(r - 500, TweenMax.to($("#menu_li_8 a"), .2, {
 		css: {
-			color: "#ffffff"
+			color: "yellow"
 		}
 	})), c.addTween(r + 900, TweenMax.to($(".footer_content_2 .content_title"), .2, {
 		css: {

@@ -247,7 +247,7 @@ $(document).ready(function() {
 	var _ = $("#mp_speakers").offset().top - 500;
 	c.addTween(_, TweenMax.to($("html"), .2, {
 		css: {
-			backgroundColor: "#0c476d !important"
+			backgroundColor: "#0c476d"
 		}
 	})), c.addTween(_, TweenMax.to($(
 		"#menu_ul a , .p_change,#mp_speakers .content_title,#master_class .content_title , .gt_black, .mp_speakers_title"
